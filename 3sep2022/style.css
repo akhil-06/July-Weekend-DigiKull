@@ -1,0 +1,9 @@
+p {
+  background-color: pink;
+}
+
+@media screen and (min-width: 400px) {
+  p {
+    background-color: yellow;
+  }
+}

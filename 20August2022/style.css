@@ -1,0 +1,31 @@
+.main-element{
+    left: 100px;
+    bottom: 100px;
+    background-color: yellow;
+    padding: 10px;
+    position:absolute;
+}
+
+.parent-element{
+    position: relative;
+    height: 100px;
+    padding: 10px;
+    background-color: #81adc8;
+}
+
+.sibling-element{
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid red;
+}
+
+/* 
+html{
+    height: 900px;
+} */
+
+/*static
+relative
+fixed
+sticky =  relative + fixed;
+absolute */

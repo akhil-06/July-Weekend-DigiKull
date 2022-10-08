@@ -1,0 +1,69 @@
+/* *{
+background-color: aqua;
+background-image: url("../24July2022/download\ \(1\).jpg");
+background-repeat: repeat;
+background-position:center;
+background-size: cover;
+background-size: 200px 300px;
+} */
+
+.para1{
+    /* color: red;
+    border-width:2px 4px 6px 8px
+    border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    /* border: 4px solid black;
+    border-radius: 5px; */
+    /* border-left: 2px dashed red;
+    border-bottom: 4px solid rgb(16, 130, 230);
+    border-top: 3px dashed brown; */
+    /* border-right: 4px solid red; */
+
+    /* text styling */
+    font-size: 20px;
+    color: blue;
+    font-weight: bolder;
+    line-height: 40px;
+    word-spacing: 20px;
+    text-decoration:underline;
+    text-transform: lowercase;
+    background-color: black;
+    text-indent: 50px;
+    text-shadow: 2px 2px 5px red;
+}
+
+h1{
+    text-align: center;
+    /* color: white;
+    text-shadow: 2px 2px 4px green; */
+}
+
+p{
+    color: rgb(238, 11, 11);
+}
+
+#p1{
+    display: inline;
+}
+
+#p2{
+    display: block;
+}
+
+#p3{
+    display: inline-block;
+}
+
+#div1{
+    /* height: 100px;
+    width: 100px; */
+    background-color: cyan;
+    /* margin: 5px 10px 20px 30px; */
+    /* margin-top: 50px;
+    margin-left: 30px; */
+    margin: 25px 30px;
+    padding: 70px;
+
+    /* margin: auto; */
+}

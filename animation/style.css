@@ -1,0 +1,52 @@
+.one {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  background-color: cyan;
+  /* transform: rotate(90deg); */
+  /* transform: rotateX(120deg) */
+  /* transform: scale(2.5); */
+  /* transform: translate(50px, 100px); */
+  /* transform: skew(); */
+  /* transition:1s ease-in-out 0.5s; */
+  /* animation: changeShape 1s ease-in-out infinite alternate; */
+  /* animation-name: animator,rotation,reduceSize;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s,1s,1s;
+  animation-iteration-count: infinite,infinite,infinite;
+  animation-direction: alternate,alternate,alternate; */
+}
+
+@keyframes animator {
+  0% {
+    border-radius: 0%;
+  }
+  100% {
+    border-radius: 50%;
+  }
+}
+
+@keyframes rotaion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes reduceSize {
+  from {
+    height: 100px;
+    width: 100px;
+  }
+  to {
+    height: 50px;
+    width: 50px;
+  }
+}
+/* div:hover{
+transform: scale(1.5) translate(150px);
+} */
